@@ -1,0 +1,8 @@
+footer {
+    display: flex;
+    height: 70;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-style: italic;
+  }

@@ -1,0 +1,72 @@
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 80px;
+    font-family: "Open Sans" sans-serif;
+    color: white;
+  }
+  
+  main h2 {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  
+  main h1 {
+    font-size: 6rem;
+    font-weight: 600;
+  }
+  
+  main p {
+    font-size: 1.6rem;
+    width: 800px;
+    font-weight: 200;
+  }
+  
+  main a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background-color: #500202;
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all 0.5s;
+  }
+  
+  main a:hover {
+    background-color: rgb(0, 0, 0);
+    color: #fdfdfd;
+    border: 1px solid#000000;
+  }
+
+  @media (max-width: 720px){
+    main{
+        justify-content: flex-end;
+        align-items: center;
+        padding-bottom: 35px;
+    }
+    main p{
+        display: none;
+    }
+    
+    main h2{
+       font-size: 1.5rem;
+       font-weight: 100;
+    }
+    main h1 {
+        text-align: center;
+        line-height: 3.5rem;
+    }
+    main h1 span{
+        font-size: 3rem;
+        font-weight: 400;
+        display: block;
+        
+    }
+}
